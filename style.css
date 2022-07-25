@@ -22,6 +22,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     margin: 20px auto;
 }
 
@@ -29,7 +30,7 @@ h1 {
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
     grid-template-columns: repeat(4, 80px);
     grid-template-rows: minmax(80px, auto) repeat(5, 80px);
 }
